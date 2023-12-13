@@ -6,7 +6,6 @@
  <style>
   
   body {
-    padding: 10px;
     background: white;
   }
   .header {
@@ -15,13 +14,11 @@
     background: lightpink;
   }
   .header h1{
-    position: center;
     font-family: Lucida Handwriting;
     color: black;
     font-size: 50px;
   }
   .header h2{
-    position: center;
     font-family: Papyrus;
     color: black;
     font-size: 25px;
@@ -46,28 +43,57 @@
   .topnav a:active{
     background-color: lightblue;
   }
-   
- </style>
+   #Home, #Makeup, #Skincare, #Fragrence, #About {
+     background-color: lightpink;
+     height: 700px;
+  }
+   #Home {
+     text-align: center;
+   }
+   #Home h1 {
+     padding:30px;
+     margin: 10px;
+     font-family: Lucida Handwriting;
+     font-size: 45px;
+  }
+   #Home h2 {
+     font-family: Papyrus;
+     font-size: 20px;
+   }
+
+</style>
 </head>
   
 <body>
 
 <div class="header">  
   <img src="Airplane taking off logo.jpeg" alt="airplane" 
-       style="width:300px;height:200px;">
+       style="width:300px;height:200px;border-radius: 20px;">
     <h1>First Class Beauty</h1>
     <h2>Let's Start Your Beauty Adventure!</h2>  
 </div>
   
-
-  <div class="topnav">
-    <a href="#">Home</a>
-    <a href="#">Makeup</a>
-    <a href="#">Skincare</a>
-    <a href="#">Fragrence</a>
-    <a href="#">About</a>
-  </div>
+<div class="topnav">
+    <a href="#Home">Home</a>
+    <a href="#Makeup">Makeup</a>
+    <a href="#Skincare">Skincare</a>
+    <a href="#Fragrence">Fragrence</a>
+    <a href="#About">About</a>
+</div>
   
+<div id="Home">
+  <h1>Welcome!</h1>
+  <h2>First Class Beauty is ready to assist you in all your beauty needs.
+    Enjoy this safe space to learn and discover the best beauty products 
+    suited for you!</h2>
+  <h2>Shop from a variety of stores at your fingertips.
+    We make your shopping easy and quick!</h2>
+   <img src="makeup logo.jpeg" alt="makeup"
+          style="width:330px;height:425px;border-radius:20px">
+  
+  </div>
+
+
   
 </body>
 </html>
