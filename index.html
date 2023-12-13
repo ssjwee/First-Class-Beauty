@@ -29,7 +29,6 @@
   }
   .topnav a {
     float: left;
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -40,9 +39,6 @@
     background-color: lightblue;
     color: black;
   }
-  .topnav a:active{
-    background-color: lightblue;
-  }
    #Welcome, #Makeup, #Skincare, #Fragrence, #About {
      background-color: lightpink;
      height: 700px;
@@ -52,7 +48,7 @@
    }
    #Welcome h1 {
      padding:30px;
-     margin: 10px;
+     margin: 20px;
      font-family: Lucida Handwriting;
      font-size: 45px;
   }
@@ -60,7 +56,15 @@
      font-family: Papyrus;
      font-size: 20px;
    }
-
+   #Makeup {
+     text-align: center;
+   }
+   #Makeup h1 {
+     padding:40px;
+     margin: 20px;
+     font-family: Copperplate;
+     font-size: 50px;
+   }
 </style>
 </head>
   
@@ -90,9 +94,11 @@
     We make your shopping easy and quick!</h2>
    <img src="makeup logo.jpeg" alt="makeup"
           style="width:330px;height:435px;border-radius:20px">
-  
-  </div>
+</div>
 
+<div id="Makeup">
+  <h1>MAKEUP</h1>
+  </div>
 
   
 </body>
