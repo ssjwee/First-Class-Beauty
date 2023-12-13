@@ -15,14 +15,21 @@
     background: lightpink;
   }
   .header h1{
+    position: center;
     font-family: Lucida Handwriting;
     color: black;
     font-size: 50px;
   }
   .header h2{
+    position: center;
     font-family: Papyrus;
     color: black;
     font-size: 25px;
+  }
+  div.relative {
+     position: relative;
+     top: 250px;
+     left: 50px;
   }
   .topnav {
     overflow: hidden;
@@ -50,10 +57,13 @@
   
 <body>
 
-<img src="Airplane taking off logo.jpeg" alt="airplane" 
-       style="float:left;width:300px;height:200px;margin:25px">
+<div class="relative">
+  <img src="Airplane taking off logo.jpeg" alt="airplane" 
+       style="width:300px;height:200px;margin:25px">
+</div>
+  
 
-  <div class="header">  
+<div class="header">  
     <h1>First Class Beauty</h1>
     <h2>Let's Start Your Beauty Adventure!</h2>
   
